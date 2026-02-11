@@ -40,3 +40,20 @@
 .read-the-docs {
   color: #888;
 }
+
+li {
+  font-size: 20px;
+  text-align: left;
+  list-style-type: none;
+  margin-bottom: 4px;
+  border: 0px rgb(121, 199, 57);
+}
+
+li:hover {
+  transition: 0.3s;
+  border-right: 4px rgb(121, 199, 57) solid;
+}
+
+li:has(input:checked) {
+  background-color: rgb(219, 255, 219);
+}
